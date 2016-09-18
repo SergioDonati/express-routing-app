@@ -1,6 +1,6 @@
 # Express Routing App
 
-	Helper for routing [Express](http://expressjs.com/) applications.
+Helper for routing [Express](http://expressjs.com/) applications.
 
 ## Install
 
