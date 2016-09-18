@@ -92,6 +92,6 @@ function (router, routingApp, ...yourParameters)
 
 ## License
 
-	[MIT](LICENSE)
+[MIT](LICENSE)
 
 Copyright (c) 2016 Sergio Donati
