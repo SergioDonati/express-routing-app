@@ -4,7 +4,7 @@ Helper for routing [Express](http://expressjs.com/) applications.
 
 ## Install
 
-This module require node >= 6.5.0 because is written with the last ECMAScript 6 features, so firstly check you version.
+This module require node >= 6.5.0 because is written with the last ECMAScript 6 features, so firstly check your version.
 
 ```bash
 $ npm install express-routing-app --save
