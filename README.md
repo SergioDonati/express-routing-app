@@ -72,19 +72,21 @@ const routingApp = new RoutingApp({
 	}
 });
 ```
-now you can call *Router* method passing the absolute path of the file that defining you router,
+now you can call *Router* method passing the absolute path of the file that defining your router,
 optionally you can pass also your parameters
 *Router* method return a new express router
 ```javascript
-app.use(routingApp.Router(absoluteFilePath, yourParameter1, yourParameter2));
+app.use(routingApp.Router(absoluteFilePath, ...yourParameters));
 ```
 the passed file can export an express router or export a function with the follow format
 ```javascript
-function (router, routingApp, ...yourParameters)
+module.exports = function (router, routingApp, ...yourParameters){
+	...
+}
 ```
 * *router* is the new express router, use it for implement your logic
 * *routingApp* is the routingApp instance that call this file, use it for access to all your application stuff or call nested *Router*
-* *yourParameters* spreaded parameters that you pass when calling *Router*
+* *yourParameters* spread parameters that you pass when call *Router*
 
 ## Credits
 
