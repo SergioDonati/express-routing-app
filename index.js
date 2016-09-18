@@ -7,7 +7,7 @@ module.exports = class RoutingApp {
 	constructor(args){
 		const keys = Object.keys(args);
 		for(let i=0;i<keys.length;i++){
-			this.add(keys[i], args[key]);
+			this.add(keys[i], args[keys[i]]);
 		}
 	}
 
