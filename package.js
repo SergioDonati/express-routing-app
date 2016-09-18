@@ -14,6 +14,10 @@
   ],
   "version": "0.0.2",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SergioDonati/express-routing-app.git"
+  },
   "main": "./index.js",
   "license": "MIT",
   "licenses": [
