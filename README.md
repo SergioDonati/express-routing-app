@@ -73,8 +73,8 @@ const routingApp = new RoutingApp({
 });
 ```
 now you can call *Router* method passing the absolute path of the file that defining your router,
-optionally you can pass also your parameters
-*Router* method return a new express router
+optionally you can pass also your parameters.  
+The method *Router* return a new express router
 ```javascript
 app.use(routingApp.Router(absoluteFilePath, ...yourParameters));
 ```
